@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #3A8530;
+    margin: 0;
+}
+
+h1 {
+    color: #8BFFFF;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+p {
+    color: #F7F7F7;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 1px 20px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #F7F7F7;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #2E6B2D;
+}
+
+.controller {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+
+.controller button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8BFFFF;
+    color: #2E6B2D;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controller button:hover {
+    background-color: #6BD6D6;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 2px solid #F7F7F7;
+    border-radius: 5px;
+    background-color: #1E4B1D;
+    color: #F7F7F7;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.controller button {
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    font-weight: 600;
+}
+
+span {
+    font-size: 1.5rem;
+    padding: 8px 16px;
+}
+/* Medium Screens*/
+@media (min-width: 400px) and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .controller {
+        display: flex;
+    }
+
+    .controller button {
+        font-size: 1.4rem;
+        padding: 9px 18px;
+    }
+
+    span {
+        font-size: 1.8rem;
+        padding: 9px 18px;
+    }
+}
+
+/* Large Screens (min-width: 769px) */
+@media (min-width: 769px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    .controller button {
+        font-size: 1.6rem;
+        padding: 10px 20px;
+    }
+
+    .controller {
+        display: flex;
+    }
+
+    span {
+        font-size: 2.2rem;
+        padding: 10px 20px;
+    }
+}
