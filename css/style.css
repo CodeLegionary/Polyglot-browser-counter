@@ -20,6 +20,7 @@ h1 {
     font-size: 1.8rem;
     display: block;
     position: static;
+    overflow: visible;
 }
 
 p {
