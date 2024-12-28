@@ -12,10 +12,14 @@ body {
 }
 
 h1 {
+    width: 100%;
+    box-sizing: border-box;
     color: #8BFFFF;
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 1.8rem;
+    display: block;
+    position: static;
 }
 
 p {
