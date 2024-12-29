@@ -28,10 +28,10 @@ spagnolo e inglese. Il sito ha comunque come lingua principale l'italiano, ma re
 
 # IV Utilizzo
 Le funzionalità sono quelle classiche che si possono trovare in un contatore realizzato in hardware:
-1. Reset: imposta il valore a quello di partenza, cioè 0 (zero)
-2. Decremento: decrementa di 1 (uno)
-3. Incremento: incrementa di (uno)
-4. Moltiplicazione per 2 (due): l'equivalente di uno shift left binario
+1. **Reset**: imposta il valore a quello di partenza, cioè 0 (zero)
+2. **Decremento**: decrementa di 1 (uno)
+3. **Incremento**: incrementa di 1 (uno)
+4. **Moltiplicazione per 2 (due)**: l'equivalente di uno shift left binario
 
 Riguardo al tasto di Reset questo è stato realizzato con un semplice restart button, per garantire
 una maggiore fruibilità e risultare più intuitivo per tutti.
