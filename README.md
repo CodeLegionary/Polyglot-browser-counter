@@ -15,7 +15,7 @@ counter classico.
 Trattasi di una SPA (Single-Page-application) presentata in più lingue. Il sito, sebbene si basi sul classico documento index.html,
 non ne fa un uso standard. Ma come è stato anticipato la creazione stessa del contatore, parte principale del sito, è effettuata in
 JavaScript, proprio ad enfatizzare le potenzialità di questo linguaggio e la sua integrazione con il DOM e i vari linguaggi front-end (e.g. HTML e CSS).
-La parte delle traduzioni è delegata ad un apposito file JS per offrire una struttura modulare, e ben organizzata.
+La parte delle traduzioni è delegata ad un apposito file JS per offrire una struttura modulare, e ben organizzata. Oltre alla cartella js, che contiene in totale due files, ci sono poi le cartelle css e img, destinate a racchiudere lo stile e la favicon della SPA.
 
 # II Indirizzo e Deployment
 Il sito è disponibile al seguente link: [Polyglot-browser-counter](https://codelegionary.github.io/Polyglot-browser-counter).
